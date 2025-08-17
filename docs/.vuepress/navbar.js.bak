@@ -1,0 +1,54 @@
+/**
+ * @see https://theme-plume.vuejs.press/config/navigation/ 查看文档了解配置详情
+ *
+ * Navbar 配置文件，它在 `.vuepress/plume.config.js` 中被导入。
+ */
+
+import {
+     defineNavbarConfig
+} from 'vuepress-theme-plume'
+
+export default defineNavbarConfig([{
+          text: '首页',
+          link: '/',
+          icon: 'material-symbols:home-outline-rounded'
+     },
+     {
+          text: '标签',
+          icon: 'material-symbols:tag-rounded',
+          link: '/blog/tags/'
+     },
+     {
+          text: '归档',
+          icon: 'solar:archive-bold',
+          link: '/blog/archives/'
+     },
+     {
+          text: '官方频道',
+          icon: 'ic:baseline-telegram',
+          link: '/notes/SillyTavern/0.ST.md'
+     },
+     {
+          text: '文档',
+          icon: 'solar:document-bold',
+          items: [{
+                    text: 'SillyTavern基础概念',
+                    items: [{
+                         text: '索引',
+                         link: '/notes/SillyTavern/1.索引/1.Basic.md'
+                    }, ],
+
+               },
+               {
+                    text: 'SillyTavern进阶',
+                    items: [{
+                         text: '索引',
+                         link: '/notes/SillyTavern/1.索引/2.Advanced.md'
+                    }, ],
+               }
+
+          ]
+     },
+
+
+])
