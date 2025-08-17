@@ -32,7 +32,7 @@ export default defineUserConfig({
   hostname: 'https://lst2.sudachi.top',
 
     /* 文档仓库配置，用于 editLink */
-  docsRepo: 'LimeBlogs/LST2docs/',
+  docsRepo: 'LimeBlogs/LST2docs',
   docsDir: 'docs',
   docsBranch: 'master',
 

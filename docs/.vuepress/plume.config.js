@@ -18,7 +18,7 @@ import notes from './notes'
  * @see https://theme-plume.vuejs.press/config/basic/
  */
 export default defineThemeConfig({
-  logo: 'https://theme-plume.vuejs.press/plume.png',
+  logo: 'https://Sudachi.top/LimePan/LST2.png',
 
   appearance: true,  // 配置 深色模式
 
@@ -40,16 +40,16 @@ export default defineThemeConfig({
   // createTime: true, // 是否显示文章创建时间
 
   /* 站点页脚 */
-  // footer: {
-  //   message: 'Power by <a target="_blank" href="https://v2.vuepress.vuejs.org/">VuePress</a> & <a target="_blank" href="https://theme-plume.vuejs.press">vuepress-theme-plume</a>',
-  //   copyright: '',
-  // },
+   footer: {
+     message: '@LST2C 使用Vuepress',
+     copyright: '',
+   },
 
   /**
    * @see https://theme-plume.vuejs.press/config/basic/#profile
    */
   profile: {
-    avatar: 'https://theme-plume.vuejs.press/plume.png',
+    avatar: 'https://Sudachi.top/LimePan/LST2.png',
     name: 'LST2C-Docs',
     description: 'LST2C 附属官方文档',
     // circle: true,
